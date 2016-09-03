@@ -1,0 +1,1 @@
+Test file smaller than CHUNK_SIZE
