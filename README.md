@@ -12,6 +12,23 @@ which specifies a different entry point (one for Client, one for
 Server).
 
 
+Build Environment
+=================
+
+Open in IntelliJ IDE, and perform `Build | Build Artifacts...` to 
+generate both Server and Client artifacts.
+
+
+Usage
+=====
+
+# To start server:
+$ java -jar out/artifacts/Server/Server.jar <port> <file-to-serve>
+
+# To start client
+$ java -jar out/artifacts/Client/Client.java <server host> <port>
+
+
 Protocol Details
 ================
 
